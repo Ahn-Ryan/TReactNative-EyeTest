@@ -1,9 +1,9 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import { StatusBar } from 'react-native';
+import RootStack from 'navigation/RootStack';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { NavigationContainer } from '@react-navigation/native';
-import RootStack from './navigation/RootStack';
 
 type TProps = {};
 

@@ -1,7 +1,7 @@
 /**
  * Author: Ryan
- * Date: 2021-06-30
- * title: StackHeader
+ * Date: 2021-07-04
+ * title: Index
  */
 
 import React from 'react';
@@ -9,8 +9,8 @@ import { View } from 'react-native';
 
 type TProps = {};
 
-const StackHeader = ({}: TProps) => {
+const PhotoEditor = ({}: TProps) => {
   return <View></View>;
 };
 
-export default StackHeader;
+export default PhotoEditor;

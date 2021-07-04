@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -13,9 +13,11 @@
     "target": "esnext",
     "skipLibCheck": true,
     "paths": {
-      "@components": ["./components"],
-      "@screen": ["./screen"],
-      "@images": ["./public/images"]
+      "@/*": ["./*"],
+      "@components/*": ["components/*"],
+      "@navigation/*": ["navigation/*"],
+      "@screen/*": ["screen/*"],
+      "@utils/*": ["utils/*"]
     }
   },
   "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"],
